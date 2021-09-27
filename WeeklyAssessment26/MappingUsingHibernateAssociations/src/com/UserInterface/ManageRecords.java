@@ -45,7 +45,7 @@ public class ManageRecords {
 		
 		/* delete product records in database by id */
 		try {
-			productServices.deleteProductById(2);
+			productServices.deleteProductById(4);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -85,7 +85,7 @@ public class ManageRecords {
 		
 		/*Delete customer record in database by id*/
 		try {
-			customerServices.deleteCustomerById(18);
+			customerServices.deleteCustomerById(4);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
