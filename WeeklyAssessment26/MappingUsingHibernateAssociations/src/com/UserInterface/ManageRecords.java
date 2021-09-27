@@ -37,7 +37,7 @@ public class ManageRecords {
 	
 		/*Update product records in database*/
 		try {
-		productServices.updateProductDetails(3, 600);
+		productServices.updateProductDetails(3, 72000);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
