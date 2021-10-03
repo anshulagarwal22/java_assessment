@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  background: linear-gradient(to right, rgb(0, 140, 255), rgb(73, 50, 64));
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: rgb(26, 23, 73);
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px rgb(46, 41, 117);
+  padding: 60px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgb(17, 0, 255);
+}
+
+.title {
+  margin-left: 16px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.title-item {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.title-item a {
+  color: rgb(73, 23, 54);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.title-item a:hover {
+  color: rgb(0, 89, 255);
+  text-decoration: underline;
+}
+
+.Assignments {
+  background: linear-gradient(to right, rgb(0, 195, 255), rgb(73, 50, 64));
+  display: flex;
+  flex-direction: column;
+  transition: 300ms;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgb(145, 86, 122);
+  border-radius: 20px;
+}
+
+.Assignments-title {
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.Assignments-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.Assignments-item a {
+  color: rgb(28, 23, 73);
+  text-decoration: none;
+}
